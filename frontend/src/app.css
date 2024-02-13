@@ -1,0 +1,170 @@
+body{
+    padding: 0.25rem 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+   background-color: rgb(220, 192, 157);
+
+
+}
+
+.horizontal{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr 1fr 1fr;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin-left: 60rem; */
+
+}
+
+.horizontal li a{
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    /* border-radius: 4px; */
+    font-size: 1.25rem;
+    color:black;
+    /* text-shadow: 1px 1px 3px rgba(45, 91, 52, 0.822); */
+    /* transition: 2s all linear ease-in-out; */
+}
+
+.horizontal li a:hover{
+    color:rgb(34, 34, 34);
+    border-bottom: 3px solid rgb(34, 34, 34);  
+}
+.heading{
+    /* text-align: center; */
+    display: inline;
+    font-size: 3rem;
+    color: black;
+    margin-top: -10px;
+    /* text-shadow: 2px 2px 4px rgba(4, 81, 14, 0.644); */
+}
+
+
+.my-notes{
+    padding: 0 12rem;
+    display: grid;
+    grid-gap:1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+
+.the-notes{
+    background-color:#A07855FF; 
+    padding: 0.25rem 1rem 0.75rem 1rem;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.notes-head{
+    color: beige;
+}
+
+.mybtns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.du-btn{
+    border-radius: 6px;
+    background-color: #a4dbab;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #06450b;
+    box-shadow: 1px 1px 3px #dbd5a485;
+}
+
+.create{
+    background-color: rgb(84, 64, 67);
+    display: inline-block;
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin: 1.5rem 12rem;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.create h2{
+    /* padding-bottom: 0; */
+    margin-bottom: 0.5rem;
+    color: beige;
+}
+
+.create form input{
+    padding: 0.25rem 0.5rem;
+    width: 65%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.create form textarea{
+    display: block;
+    margin-bottom: 1rem;
+    resize: none;
+    border-radius: 5px;
+    width: 90%;
+    height: 100px;
+}
+
+.create form button{
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding: 0.15rem 0.25rem;
+    background-color: beige;
+    font-weight: bold;
+    color: rgb(84, 64, 67);
+    font-size: 0.95rem;
+}
+
+.sign-des{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #735a53;
+    /* display: inline-block; */
+    width: 25%;
+    padding: 0 0 0.5rem 0;
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+
+.sign-des h1{
+    background-color: #9E7676;
+    width: 90%;
+    padding: 0.25rem 1.15rem;
+    font-size: 2.5rem;
+    border-radius: 8px;
+}
+
+.my-sign{
+    align-items: center;
+    /* padding: 1rem 3rem 1rem 3rem; */
+    margin: 1rem auto;
+    border-radius: 2px;
+    display: inline-block;
+    /* width: 16%; */
+    /* background-color: #a4dbab; */
+}
+
+.my-sign input{
+    display: block;
+    margin: 1rem 1rem 1rem 0.5rem;
+    height: 1.25rem;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn{
+    margin-top: 1.75rem;
+    font-size: 1rem;
+    border-radius:4px;
+    outline: none;
+    border: none;
+    color: rgb(84, 64, 67);
+    font-weight: bold;
+}
